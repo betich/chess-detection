@@ -14,7 +14,7 @@ def show_cv2_image(image, title='image'):
 
 # OCR
 
-with open('service_gaccount.json') as source:
+with open('service_account.json') as source:
     info = json.load(source)
 vision_credentials = service_account.Credentials.from_service_account_info(info)
   
