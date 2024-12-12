@@ -20,8 +20,16 @@ pip install -r requirements.txt
 
 5. Download service account key and save it as `service_account.json` in the root directory of the project.
 
-6.
+6. Run the script
 
 ```bash
 python run.py
 ```
+
+### For the algorithm on Kaggle:
+
+Run `vidhanddetect.py` in `src/chess_board/vidhanddetect.py` which outputs a list of detected chess move which is converted to PGN format from the video.
+
+### For all algorithms (as described in the poster and presentation):
+
+run `run.py` in the root directory of the project.
