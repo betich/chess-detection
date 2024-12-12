@@ -32,7 +32,7 @@ def ocr_image(input_image, verbose=False):
     """Detects text in the file."""
     from google.cloud import vision
 
-    client = vision.ImageAnnotatorClient(credentials=vision_credentials)
+    client = vision.ImageAnnotatorClient()
     
     content = cv2.imencode('.jpg', input_image)[1].tobytes()
 

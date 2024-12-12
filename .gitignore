@@ -30,6 +30,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+service_account.json
+
 *.mp4
 
 # PyInstaller
