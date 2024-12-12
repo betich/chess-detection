@@ -18,13 +18,13 @@ def main():
   video_path_4m = "kaggle/input/videos/4_Move_studet.mp4"  # Replace with the path to your video
   video_path_6m = "kaggle/input/videos/6_Move_student.mp4"  # Replace with the path to your video
   video_path_8m = "kaggle/input/videos/8_Move_student.mp4"  # Replace with the path to your video
-  video_path_2mr = "kaggle/input/videos/2_Move_rotate_student.mp4"
+  video_path_2mr = "kaggle/input/videos/(Bonus)Long_Video_label.mp4"
 
 
 
-  video_path_list = [video_path_2mr, video_path_2m, video_path_4m, video_path_6m, video_path_8m]
+  video_path_list = [video_path_2mr, video_path_2m, video_path_4m, video_path_6m, video_path_8m, video_path_2mr]
 
-  output_path = "kaggle/output/output_video.avi"  # Optional: Specify a path to save the output video
+  # output_path = "kaggle/output/output_video.avi"  # Optional: Specify a path to save the output video
 
   # for vidp in vidp_list:
   # for vidp in video_path_list:
